@@ -53,7 +53,7 @@ testGranularity=class
 # 0.1 for GenProg and 1.0 for TrpAutoRepair and PAR
 sample=0.1 
 # edits for PAR, GenProg, TrpAutoRepair
-edits=APPEND;DELETE;REPLACE;FUNREP;PARREP;PARADD;PARREM;EXPREP;EXPADD;EXPREM;NULLCHECK;OBJINIT;RANGECHECK;SIZECHECK;CASTCHECK;LBOUNDSET;UBOUNDSET;OFFBYONE;SEQEXCH;CASTERMUT;CASTEEMUT
+edits=APPEND;DELETE;REPLACE
 # optionally you can provide a probabilistic model to modify the distribution it uses to pick the mutation operators
 #model=probabilistic
 #modelPath=/home/mausoto/probGenProg/genprog4java/overallModel.txt
